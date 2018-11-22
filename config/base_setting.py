@@ -5,7 +5,7 @@ SQLALCHEMY_ECHO = False
 
 AUTH_COOKIE_NAME = "mooc_food"
 
-SEO_TITLE = "Python Flask构建微信小程序订餐系统"
+SEO_TITLE = "Python Flask APP 商城"
 ##过滤url
 IGNORE_URLS = [
     "^/user/login"
@@ -29,8 +29,8 @@ STATUS_MAPPING = {
 }
 
 MINA_APP = {
-    'appid':'wx360d7b8ff0881fd3',
-    'appkey':'xxxxxxxxxxxxx换自己的',
+    'appid':'wx53aff309bfdd4f93',
+    'appkey':'3d845651de235e7593bfec56ba730aea',
     'paykey':'xxxxxxxxxxxxxx换自己的',
     'mch_id':'xxxxxxxxxxxx换自己的',
     'callback_url':'/api/order/callback'
